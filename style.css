@@ -23,18 +23,23 @@ i {
 }
 
 /*first picture*/
-.no-padding {
-	padding-left: 0;
-	padding-right: 0;
+.main-background {
+	background-image: url(http://www.sculptdc.com/wp-content/themes/simfo/uploads/1stimage.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: wheat;
 }
-.full-width-image {
-	width: 100%;
+.head-info {
+padding: 10% 0 0;
 }
-/*end of first picture*/
-
+.info {
+	padding: 0 20% 10%;
+	font-size: 1em;
+}
 /*About Section*/
 .center {
 	text-align: center;
+	list-style-type: none;
 }
 /*New Student Section*/
 .new-student-background{
@@ -43,8 +48,27 @@ i {
 	background-size: 100%;
 	height: 400px;
 }
+.new-student-list{
+	margin-right: 16%;
+	display: none;
+}
 
-
+.new-student-section {
+	background-color: wheat;
+	margin-top: 2%;
+	width: 22%;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.purchase {
+	background-color: #AB1C00;
+	text-align: center;
+	color: #fff;
+	font-size: 2em;
+	margin-bottom: 0;
+}
 
 .videoWrapper {
 	position: relative;
