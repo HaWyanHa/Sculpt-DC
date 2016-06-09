@@ -62,12 +62,52 @@ padding: 10% 0 0;
 	padding-left: 0;
 	padding-right: 0;
 }
+.new-student-section:hover .new-student-list{
+	display: block;
+}
+/*.new-student-section:hover {
+	.new-student-section ul {
+		display: block;
+	}
+}*/
 .purchase {
 	background-color: #AB1C00;
 	text-align: center;
 	color: #fff;
 	font-size: 2em;
 	margin-bottom: 0;
+}
+
+.purchase:hover{
+	background-color: #fff;
+	color: #AB1C00;
+	cursor: pointer;
+}
+
+.cycling{
+	background-image: url(http://thumb9.shutterstock.com/display_pic_with_logo/673462/179472182/stock-photo-people-doing-indoor-biking-in-a-fitness-club-179472182.jpg);
+	background-size: 100%;
+}
+.cycling-pad {
+	background-color: #fff;
+	opacity: 0.6;
+	max-width: 60%;
+    position: relative;
+    left: 18%;
+    margin-top: 17%;
+    margin-bottom: 17%;
+}
+.cycling-head {
+	text-align: center;
+}
+.cycling-p{
+	padding: 0 10%;
+	text-align: center;
+}
+
+.yoga {
+	background-image: url(http://thumb1.shutterstock.com/display_pic_with_logo/322021/129031994/stock-photo-morning-yoga-meditation-by-the-beach-129031994.jpg);
+	background-size: 100%;
 }
 
 .videoWrapper {
