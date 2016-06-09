@@ -89,8 +89,7 @@ padding: 10% 0 0;
 	background-size: 100%;
 }
 .cycling-pad {
-	background-color: #fff;
-	opacity: 0.6;
+	background-color: rgba(171, 28, 0, .6);
 	max-width: 60%;
     position: relative;
     left: 18%;
@@ -99,10 +98,16 @@ padding: 10% 0 0;
 }
 .cycling-head {
 	text-align: center;
+	color: wheat;
 }
-.cycling-p{
+.cycling-p {
 	padding: 0 10%;
 	text-align: center;
+	color: wheat;
+}
+.cycling-view {
+	text-align: center;
+	color: #fff;
 }
 
 .yoga {
