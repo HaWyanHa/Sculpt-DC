@@ -20,6 +20,10 @@
 }
 i {
 	color: #AB1C00;
+	cursor: pointer;
+}
+i:hover{
+	color: rgba(171, 28, 0, .6);
 }
 
 /*first picture*/
