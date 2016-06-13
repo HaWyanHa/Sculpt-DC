@@ -50,7 +50,7 @@ padding: 10% 0 0;
 }
 .new-student-list{
 	margin-right: 16%;
-	display: none;
+	/*display: none;*/
 }
 
 .new-student-section {
@@ -62,9 +62,9 @@ padding: 10% 0 0;
 	padding-left: 0;
 	padding-right: 0;
 }
-.new-student-section:hover .new-student-list{
+/*.new-student-section:hover .new-student-list{
 	display: block;
-}
+}*/
 /*.new-student-section:hover {
 	.new-student-section ul {
 		display: block;
@@ -83,7 +83,7 @@ padding: 10% 0 0;
 	color: #AB1C00;
 	cursor: pointer;
 }
-
+/*class sechedule*/
 .cycling{
 	background-image: url(http://thumb9.shutterstock.com/display_pic_with_logo/673462/179472182/stock-photo-people-doing-indoor-biking-in-a-fitness-club-179472182.jpg);
 	background-size: 100%;
