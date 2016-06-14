@@ -25,7 +25,9 @@ i {
 i:hover{
 	color: rgba(171, 28, 0, .6);
 }
-
+a:hover{
+	text-decoration: none;
+}
 /*first picture*/
 .main-background {
 	background-image: url(http://www.sculptdc.com/wp-content/themes/simfo/uploads/1stimage.jpg);

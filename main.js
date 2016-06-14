@@ -1,18 +1,10 @@
-(function () {
+(function (ns) {
 	"use strict";
 	console.log("inside IFE");
 
-	// $("#new-hover").hover(function(){
-	// 	$("#test").show("400");
-	// 	}, function() {
-	// 		$("#test").hide("900");
-	// });
+	window.location.hash = "#sculpt";
 
-	// $("ul").hover(function(event){
-	// 	event.stopPropagation();
-	// }, function(){
-	// 	$("ul").hide();
-	// })
+	console.log(window.location.hash)
 
 	$("#dropdown1").hide();
 	$("#dropdown2").hide();
@@ -45,5 +37,5 @@
 		$("#dropdown4").slideUp("fast");
 	});
 
-	
-})();
+	window.sculpt = ns;
+})(window.sculpt || {});
