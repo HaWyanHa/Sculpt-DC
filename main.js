@@ -33,5 +33,10 @@
 		$("#dropdown4").slideUp("fast");
 	});
 
+	$("#test").click(function(){
+		console.log("click works")
+		$("#testbody").toggle("fast");
+	})
+
 	window.sculpt = ns;
 })(window.sculpt || {});

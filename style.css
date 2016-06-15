@@ -164,3 +164,19 @@ padding: 2% 0 0;
 	background-repeat: no-repeat;
 	color: wheat;
 }
+.faq {
+	background-color: wheat;
+}
+.faq-main {
+	padding-top: 7%;
+}
+.faq-head {
+	color: #AB1C00;
+	cursor: pointer;
+}
+.faq-head:hover {
+	text-decoration: underline;
+}
+.faq-hide {
+	display: none;
+}
