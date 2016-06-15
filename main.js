@@ -33,5 +33,28 @@
 		$("#dropdown4").slideUp("fast");
 	});
 
+	// faq effects
+	$("#faqhead1").click(function(){
+		$("#faqbody1").toggle("fast");
+	});
+	$("#faqhead2").click(function(){
+		$("#faqbody2").toggle("fast");
+	});
+	$("#faqhead3").click(function(){
+		$("#faqbody3").toggle("fast");
+	});
+	$("#faqhead4").click(function(){
+		$("#faqbody4").toggle("fast");
+	});
+	$("#faqhead5").click(function(){
+		$("#faqbody5").toggle("fast");
+	});
+	$("#faqhead6").click(function(){
+		$("#faqbody6").toggle("fast");
+	});
+	$("#faqhead7").click(function(){
+		$("#faqbody7").toggle("fast");
+	});
+
 	window.sculpt = ns;
 })(window.sculpt || {});
