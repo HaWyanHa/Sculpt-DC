@@ -155,3 +155,12 @@ padding: 2% 0 0;
 	padding-right: 0;
 	padding-left: 0;
 }
+
+
+/*faq section*/
+.faq-background {
+	background-image: url(http://www.sculptdc.com/wp-content/uploads/2014/06/yoga3.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: wheat;
+}
