@@ -2,10 +2,6 @@
 	"use strict";
 	console.log("inside IFE");
 
-	window.location.hash = "#sculpt";
-
-	console.log(window.location.hash)
-
 	$("#dropdown1").hide();
 	$("#dropdown2").hide();
 	$("#dropdown3").hide();

@@ -18,6 +18,9 @@
 .social-media {
 	text-align: right;
 }
+a {
+	color: white;
+}
 i {
 	color: #AB1C00;
 	cursor: pointer;
@@ -27,6 +30,7 @@ i:hover{
 }
 a:hover{
 	text-decoration: none;
+	color: white;
 }
 /*first picture*/
 .main-background {
@@ -117,7 +121,7 @@ padding: 2% 0 0;
 	padding-top: 1%
 }
 .cycling-p {
-	padding: 0 10%;
+	padding: 0 10% 5%;
 	text-align: center;
 	color: wheat;
 }
