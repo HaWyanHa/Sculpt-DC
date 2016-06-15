@@ -18,6 +18,9 @@
 .social-media {
 	text-align: right;
 }
+a {
+	color: white;
+}
 i {
 	color: #AB1C00;
 	cursor: pointer;
@@ -25,7 +28,10 @@ i {
 i:hover{
 	color: rgba(171, 28, 0, .6);
 }
-
+a:hover{
+	text-decoration: none;
+	color: white;
+}
 /*first picture*/
 .main-background {
 	background-image: url(http://www.sculptdc.com/wp-content/themes/simfo/uploads/1stimage.jpg);
@@ -115,7 +121,7 @@ padding: 2% 0 0;
 	padding-top: 1%
 }
 .cycling-p {
-	padding: 0 10%;
+	padding: 0 10% 5%;
 	text-align: center;
 	color: wheat;
 }
