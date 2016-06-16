@@ -3,7 +3,7 @@
 }
 
 .black {
-	background-color: black;
+	background-color: rgba(171, 28, 0, 1);
 }
 
 .logo {
@@ -17,6 +17,9 @@
 }
 .social-media {
 	text-align: right;
+}
+li{
+	list-style-type: none;
 }
 a {
 	color: white;
@@ -157,6 +160,9 @@ padding: 2% 0 0;
 }
 
 /*faq section*/
+.margin-bottom {
+	margin-bottom: 3%;
+}
 .faq-background {
 	background-image: url(http://www.sculptdc.com/wp-content/uploads/2014/06/yoga3.jpg);
 	background-size: 100%;
@@ -165,6 +171,7 @@ padding: 2% 0 0;
 }
 .faq {
 	background-color: wheat;
+	display: none;
 }
 .faq-main {
 	padding-top: 7%;
@@ -178,4 +185,35 @@ padding: 2% 0 0;
 }
 .faq-hide {
 	display: none;
+}
+
+
+footer h5{
+	font-size: 2em;
+    color: wheat;
+    padding-top: 1em;
+}
+footer li{
+	color: white;
+	cursor: pointer;
+}
+footer li:hover{
+	text-decoration: underline;
+}
+footer i{
+	color: white;
+	padding-top: 1em;
+	padding-left: 1em;
+}
+footer i:first-child{
+	padding-left: 0;
+}
+.foot-nav {
+	padding-left: 8%;
+}
+.foot-nav2 {
+	padding-left: 6%;
+}
+.copyright {
+	padding: 4%;
 }
