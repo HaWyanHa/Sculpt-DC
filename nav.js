@@ -14,7 +14,7 @@
 
        if (newView.length === 0) {
        	console.log(newView.length);
-           window.location.hash = '#main'; //need to default to something (WILL ADD LATER)
+           window.location.hash = '#home'; //need to default to something (WILL ADD LATER)
        } else {
 
            var viewName = window.location.hash.substr(1);
