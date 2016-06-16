@@ -209,6 +209,18 @@ footer i{
 footer i:first-child{
 	padding-left: 0;
 }
+.twitter-color:hover{
+	color: #00aced;
+	transition: .3s;
+}
+.facebook-color:hover{
+	color: #3b5998;
+	transition: .3s;
+}
+.instagram-color:hover{
+	color: #fb3958;
+	transition: .3s;
+}
 .foot-nav {
 	padding-left: 8%;
 }
