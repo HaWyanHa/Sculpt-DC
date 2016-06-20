@@ -46,7 +46,7 @@ a:hover{
 .info-pad {
 	max-width: 55%;
     position: relative;
-    left: 18%;
+    left: 20%;
     background-color: rgba(171, 28, 0, .6);
     margin: 7% 0 11%;
 
@@ -230,3 +230,33 @@ footer i:first-child{
 .copyright {
 	padding: 4%;
 }
+
+@media screen and (max-width: 640px) {
+	.main-background {
+		background-size: cover;
+		background-position: 50% 0;
+	}
+	.new-student-background{
+		background-size: cover;
+		background-position: 50% 0;
+	}
+	.mobile-hide {
+		display: none;
+	}
+	.cycling-pad{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+/*@media only screen (max-width: 640px){
+	.main-background {
+		background-size: cover;
+		background-position: 50% 0;
+		background-color: #000;
+	}
+	.new-student-background {
+		background-size: cover;
+		background-position: 50% 0;
+	}
+}*/
