@@ -247,6 +247,9 @@ footer i:first-child{
 		margin-top: 0;
 		margin-bottom: 0;
 	}
+	.faq-background {
+		background-size: cover;
+		background-position: 71% 0;
 }
 
 /*@media only screen (max-width: 640px){
