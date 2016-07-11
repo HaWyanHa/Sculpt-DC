@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,GAAI;EACH,gBAAgB,EAAE,IAAI",
+"sources": ["../scss/_navbar.scss"],
+"names": [],
+"file": "main.css"
+}
