@@ -10,6 +10,9 @@ button {
 .logo {
   width: 60px; }
 
+li .stop-highlight:hover {
+  color: #363636; }
+
 .menu-trigger {
   display: none;
   text-align: center;
@@ -31,6 +34,10 @@ button {
   font-size: 2em; }
   .nav-menu li p {
     display: inline; }
+  .nav-menu li p:hover {
+    color: #363636; }
+  .nav-menu li img:hover + p {
+    color: #363636; }
 .nav-menu a {
   text-decoration: none;
   color: #363636;
@@ -43,8 +50,6 @@ button {
   color: #AB1C00; }
 .nav-menu a:focus {
   color: #AB1C00; }
-.nav-menu a:first-child:hover {
-  color: #363636; }
 
 footer {
   text-align: center;

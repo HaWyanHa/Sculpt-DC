@@ -8,6 +8,9 @@ button {
 .logo {
 	width: 60px;
 }
+li .stop-highlight:hover {
+	color: #363636;
+}
 .menu-trigger {
 	display: none;
 	text-align: center;
@@ -33,6 +36,12 @@ button {
 		display: inline;
 		padding: 10px;
 		font-size: 2em;
+		p:hover {
+			color: #363636;
+		}
+		img:hover + p {   //just wanted to practice with + in SASS
+			color: #363636;
+		}
 	}
 	a {
 		text-decoration: none;
@@ -48,8 +57,5 @@ button {
 	}
 	a:focus {
 		color: #AB1C00;
-	}
-	a:first-child:hover {
-		color: #363636;
 	}
 }
