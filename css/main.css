@@ -31,6 +31,18 @@ button {
   font-size: 2em; }
   .nav-menu li p {
     display: inline; }
+.nav-menu a {
+  text-decoration: none;
+  color: #363636;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out;
+  -ms-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out; }
+.nav-menu a:hover {
+  color: #AB1C00; }
+.nav-menu a:focus {
+  color: #AB1C00; }
 
 footer {
   text-align: center;
@@ -82,6 +94,8 @@ footer {
   .nav-menu li {
     font-size: 1em;
     position: relative;
-    top: 9px; } }
+    top: 9px; }
+  .nav-menu a {
+    font-size: 1em; } }
 
 /*# sourceMappingURL=main.css.map */
