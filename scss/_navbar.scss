@@ -1,3 +1,37 @@
-nav {
-	background-color: blue;
+button {
+	background-color: #fff;
+	border: 0px;
+	margin: 0 auto;
+	outline: none;
+}
+
+.logo {
+	width: 60px;
+}
+.menu-trigger {
+	display: none;
+	text-align: center;
+	cursor: pointer;
+}
+.nav-menu {
+	ul {
+		list-style-type: none;
+		text-align: right; 
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	li:first-child{
+		position: absolute;
+		left: 0px;
+		padding-top: 0px;
+		margin-top: -5px;
+	}
+	li {
+		p {
+			display: inline
+		}
+		display: inline;
+		padding: 10px;
+		font-size: 2em;
+	}
 }
