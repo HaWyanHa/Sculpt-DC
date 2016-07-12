@@ -43,6 +43,8 @@ button {
   color: #AB1C00; }
 .nav-menu a:focus {
   color: #AB1C00; }
+.nav-menu a:first-child:hover {
+  color: #363636; }
 
 footer {
   text-align: center;
