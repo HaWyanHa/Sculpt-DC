@@ -43,8 +43,15 @@ footer {
     display: inline-block;
     padding: 10px; }
   footer a {
-    color: wheat; }
+    color: wheat;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    -ms-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out; }
   footer a:hover {
+    color: #fff; }
+  footer a:focus {
     color: #fff; }
 
 @media screen and (max-width: 640px) {
