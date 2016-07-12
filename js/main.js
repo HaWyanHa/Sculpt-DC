@@ -6,7 +6,6 @@
 		$(".nav-menu").slideToggle(400, function(){
 			$(this).toggleClass("nav-expand").css("display", "");
 		});
-		$(".main-background").fadeToggle(400, "");
 	});
 
 	$("#dropdown1").hide();
