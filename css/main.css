@@ -1,5 +1,35 @@
+.main-background {
+  position: relative; }
+
 .main-image {
   width: 100%; }
+
+.right-arrow {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  right: 20px; }
+
+.left-arrow {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 20px; }
+
+.image2 {
+  display: none; }
 
 button {
   background-color: #fff;
