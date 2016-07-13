@@ -9,7 +9,20 @@
 	});
 
 
-	
+	$("#right-btn").click(function(){
+
+		$("#main-ul")
+			.find(".on-image").addClass("off-image").removeClass("on-image")
+			.next(".off-image").addClass("on-image").removeClass("off-image");
+
+	});
+
+	$("#left-btn").click(function(){
+
+		$("#main-ul")
+			.find(".on-image").addClass("off-image").removeClass("on-image")
+			.prev(".off-image").addClass("on-image").removeClass("off-image");
+	});
 
 	$("#dropdown1").hide();
 	$("#dropdown2").hide();

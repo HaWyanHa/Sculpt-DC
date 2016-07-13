@@ -1,6 +1,10 @@
 .main-background {
 	position: relative;
 }
+#main-ul{
+	padding: 0px;
+	margin: 0px;
+}
 .main-image {
 	width: 100%;
 }
@@ -28,6 +32,10 @@
 	position: absolute;
 	top: 40%;
 	left: 20px;
-}.image2{
+}
+.off-image{
 	display: none;
+}
+.on-image {
+	display: block;
 }

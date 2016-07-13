@@ -30,12 +30,14 @@ li .stop-highlight:hover {
 		margin-top: -5px;
 	}
 	li {
-		p {
-			display: inline
-		}
+		
 		display: inline;
 		padding: 10px;
 		font-size: 2em;
+
+		p {
+			display: inline
+		}
 		p:hover {
 			color: #363636;
 		}

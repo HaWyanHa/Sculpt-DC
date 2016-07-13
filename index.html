@@ -25,7 +25,7 @@
 					<p>Sculpt DC</p>
 				</a>
 			</li>
-			<li>
+			<li class="hello">
 				<a href="#about">About</a>
 			</li>
 			<li>
@@ -44,12 +44,18 @@
 	</nav>
 </header>
 <main class="container-fluid">
-	<article class="row main-background">
-		<img class="main-image" src="http://www.sculptdc.com/wp-content/themes/simfo/uploads/1stimage.jpg">
-		<img class="main-image image2" src="http://www.sculptdc.com/wp-content/themes/simfo/uploads/firsttimedropin.jpg">
-		<img src="">
-		<button class="right-arrow">></button>
-		<button class="left-arrow"><</button>
+	<article id="main-carousel" class="row main-background">
+		<ul id="main-ul">
+			<li class="on-image">
+				<img class="main-image" src="http://www.sculptdc.com/wp-content/themes/simfo/uploads/1stimage.jpg">
+			</li>
+			<li class="off-image">
+				<img class="main-image image2" src="http://www.sculptdc.com/wp-content/themes/simfo/uploads/firsttimedropin.jpg">
+			</li>
+		</ul>
+
+		<button id="right-btn" class="right-arrow">></button>
+		<button id="left-btn" class="left-arrow"><</button>
 	</article>
 </main>
 <footer class="container-fluid">
