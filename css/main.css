@@ -1,5 +1,8 @@
 .main-background {
   position: relative; }
+  .main-background:hover button {
+    opacity: .9;
+    transition: .2s; }
 
 #main-ul {
   padding: 0px;
@@ -9,8 +12,9 @@
   width: 100%; }
 
 .right-arrow {
-  background-color: white;
-  border: 1px solid white;
+  background-color: #fff;
+  opacity: 0;
+  color: #363636;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -21,8 +25,9 @@
   right: 20px; }
 
 .left-arrow {
-  background-color: white;
-  border: 1px solid white;
+  background-color: #fff;
+  color: #363636;
+  opacity: 0;
   border-radius: 50%;
   width: 40px;
   height: 40px;
