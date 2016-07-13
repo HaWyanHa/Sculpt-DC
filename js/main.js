@@ -11,17 +11,26 @@
 
 	$("#right-btn").click(function(){
 
-		$("#main-ul")
-			.find(".on-image").addClass("off-image").removeClass("on-image")
-			.next(".off-image").addClass("on-image").removeClass("off-image");
-
+		if ($("#main-ul").find(".on-image").attr("id") === ("last")){
+			console.log("hello");
+			
+		} else {
+			$("#main-ul")
+				.find(".on-image").addClass("off-image").removeClass("on-image")
+				.next(".off-image").addClass("on-image").removeClass("off-image");
+		}
 	});
 
 	$("#left-btn").click(function(){
 
-		$("#main-ul")
+		if ($("#main-ul").find(".on-image").attr("id") === ("first")){
+			console.log("hello");
+		
+		} else {
+			$("#main-ul")
 			.find(".on-image").addClass("off-image").removeClass("on-image")
 			.prev(".off-image").addClass("on-image").removeClass("off-image");
+		}
 	});
 
 	$("#dropdown1").hide();
