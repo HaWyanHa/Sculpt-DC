@@ -12,7 +12,9 @@
 	$("#right-btn").click(function(){
 
 		if ($("#main-ul").find(".on-image").attr("id") === ("last")){
-			console.log("hello");
+			
+			$("#first").addClass("on-image").removeClass("off-image");
+			$("#last").addClass("off-image").removeClass("on-image");
 			
 		} else {
 			$("#main-ul")
@@ -24,7 +26,9 @@
 	$("#left-btn").click(function(){
 
 		if ($("#main-ul").find(".on-image").attr("id") === ("first")){
-			console.log("hello");
+			
+			$("#last").addClass("on-image").removeClass("off-image");
+			$("#first").addClass("off-image").removeClass("on-image");
 		
 		} else {
 			$("#main-ul")
