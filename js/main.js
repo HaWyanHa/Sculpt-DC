@@ -13,8 +13,8 @@
 
 		if ($("#main-ul").find(".on-image").attr("id") === ("last")){
 			
-			$("#first").addClass("on-image").removeClass("off-image");
-			$("#last").addClass("off-image").removeClass("on-image");
+			$("#first").addClass("on-image", 5000).removeClass("off-image", 5000);
+			$("#last").addClass("off-image", 5000).removeClass("on-image", 5000);
 			
 		} else {
 			$("#main-ul")

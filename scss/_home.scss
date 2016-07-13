@@ -17,6 +17,7 @@
 .right-arrow {
 	background-color: #fff;
 	opacity: 0;
+	transition: .2s;
 	color: #00aaaa;
 	border-radius: 50%;
 	width: 40px;
@@ -31,6 +32,7 @@
 	background-color: #fff;
 	color: #00aaaa;
 	opacity: 0;
+	transition: .2s;
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
