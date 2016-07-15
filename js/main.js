@@ -13,13 +13,20 @@
 
 		if ($("#main-ul").find(".on-image").attr("id") === ("last")){
 			
-			$("#first").addClass("on-image", 5000).removeClass("off-image", 5000);
-			$("#last").addClass("off-image", 5000).removeClass("on-image", 5000);
+			$("#first").addClass("on-image").removeClass("off-image");
+				setTimeout(function(){
+					$("#first").addClass("opac");
+				}, 10);
+			$("#last").addClass("off-image").removeClass("on-image").removeClass("opac");
 			
 		} else {
 			$("#main-ul")
-				.find(".on-image").addClass("off-image").removeClass("on-image")
+				.find(".on-image").addClass("off-image").removeClass("on-image").removeClass("opac")
 				.next(".off-image").addClass("on-image").removeClass("off-image");
+
+				setTimeout(function(){
+					$(".on-image").addClass("opac");
+				}, 10);
 		}
 	});
 
@@ -28,12 +35,19 @@
 		if ($("#main-ul").find(".on-image").attr("id") === ("first")){
 			
 			$("#last").addClass("on-image").removeClass("off-image");
-			$("#first").addClass("off-image").removeClass("on-image");
+				setTimeout(function(){
+					$("#last").addClass("opac");
+				}, 10);
+			$("#first").addClass("off-image").removeClass("on-image").removeClass("opac");
 		
 		} else {
 			$("#main-ul")
-			.find(".on-image").addClass("off-image").removeClass("on-image")
+			.find(".on-image").addClass("off-image").removeClass("on-image").removeClass("opac")
 			.prev(".off-image").addClass("on-image").removeClass("off-image");
+
+			setTimeout(function(){
+					$(".on-image").addClass("opac");
+				}, 10);
 		}
 	});
 

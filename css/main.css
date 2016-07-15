@@ -40,12 +40,15 @@
   left: 20px; }
 
 .off-image {
-  display: none;
-  opacity: 0; }
+  display: none; }
 
 .on-image {
   display: block;
-  opacity: 1; }
+  opacity: 0; }
+
+.opac {
+  opacity: 1;
+  transition: 1s; }
 
 button {
   background-color: #fff;
