@@ -4,8 +4,8 @@
 	ns.home = {};
 
 	ns.home.load = function showhome() {
-		$(".faq").hide();
-		$(".everything").show();
+		$("#about").hide();
+		$("#home").show();
 
 	};
 	window.sculpt = ns;

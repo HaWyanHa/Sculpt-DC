@@ -16,7 +16,7 @@
 }
 .right-arrow {
 	background-color: #fff;
-	opacity: 0;
+	opacity: .4;
 	transition: .2s;
 	color: #00aaaa;
 	border-radius: 50%;
@@ -31,7 +31,7 @@
 .left-arrow {
 	background-color: #fff;
 	color: #00aaaa;
-	opacity: 0;
+	opacity: .4;
 	transition: .2s;
 	border-radius: 50%;
 	width: 40px;
@@ -44,10 +44,13 @@
 }
 .off-image{
 	display: none;
-	opacity: 0;
-
 }
 .on-image {
 	display: block;
+	opacity: 0;
+}
+
+.opac {
 	opacity: 1;
+	transition: 1s;
 }

@@ -13,7 +13,7 @@
 
 .right-arrow {
   background-color: #fff;
-  opacity: 0;
+  opacity: .4;
   transition: .2s;
   color: #00aaaa;
   border-radius: 50%;
@@ -28,7 +28,7 @@
 .left-arrow {
   background-color: #fff;
   color: #00aaaa;
-  opacity: 0;
+  opacity: .4;
   transition: .2s;
   border-radius: 50%;
   width: 40px;
@@ -49,6 +49,15 @@
 .opac {
   opacity: 1;
   transition: 1s; }
+
+#about {
+  display: none; }
+
+.about-head {
+  text-align: center; }
+
+.about-info {
+  text-align: center; }
 
 button {
   background-color: #fff;
@@ -77,6 +86,8 @@ li .stop-highlight:hover {
   left: 0px;
   padding-top: 0px;
   margin-top: -5px; }
+.nav-menu li:nth-child(2) {
+  display: none; }
 .nav-menu li {
   display: inline;
   padding: 10px;
@@ -132,6 +143,8 @@ footer {
       padding: 0px; }
     .nav-menu li:first-child {
       display: none; }
+    .nav-menu li:nth-child(2) {
+      display: block; }
     .nav-menu li {
       display: block;
       padding: 10px;
