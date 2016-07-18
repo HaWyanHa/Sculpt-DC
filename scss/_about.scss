@@ -2,6 +2,7 @@
 	display: none
 }
 .faq{
+	background-color: wheat;
 	h2 {
 		text-align: center;
 	}
@@ -21,3 +22,7 @@
     padding: 0;
     list-style-type: none;
  }
+
+ .faq-hide {
+	display: none;
+}

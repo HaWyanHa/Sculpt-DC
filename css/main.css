@@ -53,8 +53,10 @@
 #about {
   display: none; }
 
-.faq h2 {
-  text-align: center; }
+.faq {
+  background-color: wheat; }
+  .faq h2 {
+    text-align: center; }
 
 .about-head {
   text-align: center; }
@@ -70,6 +72,9 @@
   text-align: left;
   padding: 0;
   list-style-type: none; }
+
+.faq-hide {
+  display: none; }
 
 button {
   background-color: #fff;
