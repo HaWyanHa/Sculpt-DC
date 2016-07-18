@@ -12,6 +12,10 @@
        var newView = ( window.location.hash );
        console.log(newView);
 
+      $('nav li').removeClass('active');
+
+      $('nav a[href="' + window.location.hash + '"]').closest('li').addClass('active');
+
        if (newView.length === 0) {
        	console.log(newView.length);
            window.location.hash = '#home'; //need to default to something (WILL ADD LATER)
@@ -22,7 +26,8 @@
                ns[ viewName ].load();
            }
        }
-   }
+
+  }
 
 	window.sculpt = ns;
 })(window.sculpt || {});

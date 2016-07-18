@@ -60,7 +60,10 @@ li .stop-highlight:hover {
 	a:hover {
 		color: #AB1C00;
 	}
-	a:focus {
-		color: #AB1C00;
-	}
+	// a:active {
+	// 	color: #AB1C00;
+	// }
+}
+.active {
+	color: #AB1C00;
 }
