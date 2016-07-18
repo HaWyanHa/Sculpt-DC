@@ -10,6 +10,9 @@
 		li:first-child{
 			display: none;
 		}
+		li:nth-child(2){
+			display: block;
+		}
 		li {
 			display: block;
 			padding: 10px;

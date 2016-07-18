@@ -53,11 +53,23 @@
 #about {
   display: none; }
 
+.faq h2 {
+  text-align: center; }
+
 .about-head {
   text-align: center; }
 
 .about-info {
   text-align: center; }
+
+.faq-ul {
+  list-style-type: none;
+  text-align: center; }
+
+.topic-ul {
+  text-align: left;
+  padding: 0;
+  list-style-type: none; }
 
 button {
   background-color: #fff;
