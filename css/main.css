@@ -117,13 +117,12 @@ li .stop-highlight:hover {
   font-size: 2em; }
   .nav-menu li p {
     display: inline; }
-  .nav-menu li p:hover {
-    color: #363636; }
-  .nav-menu li img:hover + p {
-    color: #363636; }
+.nav-menu .stop-highlight a {
+  color: #363636; }
+.nav-menu .stop-highlight a:hover {
+  color: #363636; }
 .nav-menu a {
   text-decoration: none;
-  color: #363636;
   -webkit-transition: color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out;
   -o-transition: color 0.2s ease-out;
@@ -134,6 +133,9 @@ li .stop-highlight:hover {
 
 .active {
   color: #AB1C00; }
+
+a {
+  color: #363636; }
 
 footer {
   text-align: center;

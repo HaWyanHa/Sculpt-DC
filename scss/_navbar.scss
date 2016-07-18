@@ -41,16 +41,23 @@ li .stop-highlight:hover {
 		p {
 			display: inline
 		}
-		p:hover {
+		// p:hover {
+		// 	color: #363636;
+		// // }
+		// img:hover + p {   //just wanted to practice with + in SASS
+		// 	color: #363636;
+		// }
+	}
+	.stop-highlight {
+		a {
 			color: #363636;
 		}
-		img:hover + p {   //just wanted to practice with + in SASS
+		a:hover {
 			color: #363636;
 		}
 	}
 	a {
 		text-decoration: none;
-		color: #363636;
 		-webkit-transition: color 0.2s ease-out;
  		-moz-transition: color 0.2s ease-out;
  		-o-transition: color 0.2s ease-out;
@@ -66,4 +73,7 @@ li .stop-highlight:hover {
 }
 .active {
 	color: #AB1C00;
+}
+a {
+	color: #363636;
 }

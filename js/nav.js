@@ -12,9 +12,9 @@
        var newView = ( window.location.hash );
        console.log(newView);
 
-      $('nav li').removeClass('active');
+      $('.nav-menu li a').removeClass('active');
 
-      $('nav a[href="' + window.location.hash + '"]').closest('li').addClass('active');
+      $('.nav-menu li a[href="' + window.location.hash + '"]').addClass('active');
 
        if (newView.length === 0) {
        	console.log(newView.length);
