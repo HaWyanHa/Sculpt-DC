@@ -22,7 +22,13 @@
     padding: 0;
     list-style-type: none;
  }
-
- .faq-hide {
+.faq-question {
+	color: #AB1C00;
+	cursor: pointer;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+ .faq-answer {
 	display: none;
 }

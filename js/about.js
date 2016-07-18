@@ -10,8 +10,8 @@
 
 	};
 
-	$("#faqhead1").click(function(){
-	 	$("#faqbody1").toggle("fast");
+	$(".faq-question").click(function(){
+		$(this).next("p").toggle("fast");
 	});
 
 	window.sculpt = ns;
