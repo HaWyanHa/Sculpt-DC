@@ -4,7 +4,7 @@
     opacity: .9;
     transition: .2s; }
 
-#main-ul {
+.main-ul {
   padding: 0px;
   margin: 0px; }
 
@@ -80,6 +80,17 @@
     text-decoration: underline; }
 
 .faq-answer {
+  display: none; }
+
+.team {
+  text-align: center; }
+  .team ul {
+    list-style-type: none;
+    padding: 0; }
+  .team img {
+    width: 100%; }
+
+#newbies {
   display: none; }
 
 button {

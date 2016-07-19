@@ -6,6 +6,7 @@
 	ns.about.load = function showAbout() {
 
 		$("#home").hide();
+		$("#newbies").hide();
 		$("#about").show();
 
 	};
