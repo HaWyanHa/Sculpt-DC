@@ -93,6 +93,32 @@
 #newbies {
   display: none; }
 
+.newbies h2 {
+  text-align: center; }
+
+#contact {
+  display: none; }
+
+.delete-soon {
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0 3% 1%;
+  margin: 8% 25%;
+  color: white; }
+
+.note {
+  padding-bottom: 2%; }
+  .note h2 {
+    text-align: center;
+    padding-bottom: 4%; }
+  .note i {
+    padding: 8% 46% 4%; }
+
+.note-button {
+  text-align: center; }
+
 button {
   background-color: #fff;
   border: 0px;
