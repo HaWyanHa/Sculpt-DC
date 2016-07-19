@@ -6,6 +6,7 @@
 	ns.home.load = function showhome() {
 		$("#about").hide();
 		$("#newbies").hide();
+		$("#contact").hide();
 		$("#home").show();
 
 	};

@@ -7,6 +7,7 @@
 
 		$("#home").hide();
 		$("#newbies").hide();
+		$("#contact").hide();
 		$("#about").show();
 
 	};

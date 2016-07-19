@@ -8,6 +8,7 @@
 		console.log("inside newbies");
 		$("#home").hide();
 		$("#about").hide();
+		$("#contact").hide();
 		$("#newbies").show();
 
 	};
