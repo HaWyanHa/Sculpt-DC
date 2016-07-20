@@ -1,17 +1,16 @@
 (function (ns) {
 	"use strict";
 
-	ns.newbies = {};
+	ns.schedule = {};
 
-	ns.newbies.load = function showNewbies() {
+	ns.schedule.load = function showSchedule() {
 
-		console.log("inside newbies");
 		$("#home").hide();
 		$("#about").hide();
+		$("#newbies").hide();
 		$("#contact").hide();
-		$("#schedule").hide();
 		$("#pricing").hide();
-		$("#newbies").show();
+		$("#schedule").show();
 
 	};
 

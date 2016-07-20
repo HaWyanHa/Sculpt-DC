@@ -96,6 +96,12 @@
 .newbies h2 {
   text-align: center; }
 
+#schedule {
+  display: none; }
+
+#pricing {
+  display: none; }
+
 #contact {
   display: none; }
 

@@ -1,16 +1,16 @@
 (function (ns) {
 	"use strict";
 
-	ns.contact = {};
+	ns.pricing = {};
 
-	ns.contact.load = function showContact() {
+	ns.pricing.load = function showPricing() {
 
 		$("#home").hide();
 		$("#about").hide();
 		$("#newbies").hide();
 		$("#schedule").hide();
-		$("#pricing").hide();
-		$("#contact").show();
+		$("#contact").hide();
+		$("#pricing").show();
 
 	};
 

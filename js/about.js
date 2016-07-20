@@ -8,6 +8,8 @@
 		$("#home").hide();
 		$("#newbies").hide();
 		$("#contact").hide();
+		$("#schedule").hide();
+		$("#pricing").hide();
 		$("#about").show();
 
 	};
