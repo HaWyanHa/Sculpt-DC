@@ -96,6 +96,42 @@
 .newbies h2 {
   text-align: center; }
 
+.class-options {
+  list-style-type: none;
+  padding: 0; }
+  .class-options h4 {
+    text-align: center; }
+  .class-options a:hover {
+    text-decoration: none; }
+
+.purchase {
+  text-align: center;
+  background: #AB1C00;
+  background-image: -webkit-linear-gradient(top, #AB1C00, #3d0101);
+  background-image: -moz-linear-gradient(top, #AB1C00, #3d0101);
+  background-image: -ms-linear-gradient(top, #AB1C00, #3d0101);
+  background-image: -o-linear-gradient(top, #AB1C00, #3d0101);
+  background-image: linear-gradient(to bottom, #AB1C00, #3d0101);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+.purchase:hover {
+  background: #d62000;
+  background-image: -webkit-linear-gradient(top, #d62000, #db6060);
+  background-image: -moz-linear-gradient(top, #d62000, #db6060);
+  background-image: -ms-linear-gradient(top, #d62000, #db6060);
+  background-image: -o-linear-gradient(top, #d62000, #db6060);
+  background-image: linear-gradient(to bottom, #d62000, #db6060);
+  text-decoration: none; }
+
 #schedule {
   display: none; }
 
