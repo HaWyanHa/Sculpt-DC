@@ -138,6 +138,19 @@
 #pricing {
   display: none; }
 
+.pricing-ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; }
+
+.yoga-pricing {
+  padding-top: 23%; }
+
+.yoga-price {
+  border: 1px solid blue;
+  box-sizing: border-box;
+  height: 260px; }
+
 #contact {
   display: none; }
 
