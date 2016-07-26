@@ -6,12 +6,32 @@
 	list-style-type: none;
 	padding: 0;
 	text-align: center;
+	h2 {
+		padding-top: 0;
+	}
+	a {
+		color: white;
+    	text-decoration: none;
+	}
 }
-.yoga-pricing {
-	padding-top: 23%
+.pricing-ul {
+	.yoga-pricing {
+	padding-top: 23%;
+	}
 }
 .yoga-price {
-	border: 1px solid blue;
+	border: 1px solid #AB1C00;
 	box-sizing: border-box;
 	height: 260px;
+}
+.yoga-price:first-child {
+	background-color: wheat;
+	border-left: 2px solid #AB1C00;
+	border-top: 2px solid #AB1C00;
+	box-sizing: border-box;
+}
+.price {
+	font-size: 2em;
+	color: #AB1C00;
+	padding-top: 5%
 }
