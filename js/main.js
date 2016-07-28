@@ -51,59 +51,66 @@
 		}
 	});
 
-	// $("#dropdown1").hide();
-	// $("#dropdown2").hide();
-	// $("#dropdown3").hide();
-	// $("#dropdown4").hide();
+	//Membership Benefits
 
-	// $("#new-hover1").mouseover(function(){
-	// 	$("#dropdown1").slideDown("slow");
-	// });
-	// $("#new-hover2").mouseover(function(){
-	// 	$("#dropdown2").slideDown("slow");
-	// });
-	// $("#new-hover3").mouseover(function(){
-	// 	$("#dropdown3").slideDown("slow");
-	// });
-	// $("#new-hover4").mouseover(function(){
-	// 	$("#dropdown4").slideDown("slow");
-	// });
+	var myBenefits = document.getElementById('myBenefits');
+	var benefitsLink = document.getElementById("benefits");
+	var span1 = document.getElementsByClassName("close")[0];
 
-	// $("#wrapper1").mouseleave(function(){
-	// 	$("#dropdown1").slideUp("fast");
-	// });
-	// $("#wrapper2").mouseleave(function(){
-	// 	$("#dropdown2").slideUp("fast");
-	// });
-	// $("#wrapper3").mouseleave(function(){
-	// 	$("#dropdown3").slideUp("fast");
-	// });
-	// $("#wrapper4").mouseleave(function(){
-	// 	$("#dropdown4").slideUp("fast");
-	// });
+	benefitsLink.onclick = function() {
+	    myBenefits.style.display = "block";
+	};
 
-	// // faq effects
-	// $("#faqhead1").click(function(){
-	// 	$("#faqbody1").toggle("fast");
-	// });
-	// $("#faqhead2").click(function(){
-	// 	$("#faqbody2").toggle("fast");
-	// });
-	// $("#faqhead3").click(function(){
-	// 	$("#faqbody3").toggle("fast");
-	// });
-	// $("#faqhead4").click(function(){
-	// 	$("#faqbody4").toggle("fast");
-	// });
-	// $("#faqhead5").click(function(){
-	// 	$("#faqbody5").toggle("fast");
-	// });
-	// $("#faqhead6").click(function(){
-	// 	$("#faqbody6").toggle("fast");
-	// });
-	// $("#faqhead7").click(function(){
-	// 	$("#faqbody7").toggle("fast");
-	// });
+	span1.onclick = function() {
+	    myBenefits.style.display = "none";
+	};
+
+	window.onclick = function(event) {
+	    if (event.target == myBenefits) {
+	        myBenefits.style.display = "none";
+	    }
+	};
+
+	//Cancelation Policy
+	var myCancelation = document.getElementById("myCancelation");
+	var cancelationLink = document.getElementById("cancelation");
+	var span2 = document.getElementsByClassName("close")[1];
+
+	cancelationLink.onclick = function() {
+	    myCancelation.style.display = "block";
+	    console.log("inside cancelation");
+	};
+
+	span2.onclick = function() {
+	    myCancelation.style.display = "none";
+	};
+
+	window.onclick = function(event) {
+	    if (event.target == myCancelation) {
+	        myCancelation.style.display = "none";
+	    }
+	};
+
+	//Unlimited Access Memebership
+	var myUnlimited = document.getElementById("myUnlimited");
+	var unlimitedLink = document.getElementById("unlimited");
+	var span3 = document.getElementsByClassName("close")[2];
+
+	unlimitedLink.onclick = function() {
+	    myUnlimited.style.display = "block";
+	    
+	};
+
+	span3.onclick = function() {
+	    myUnlimited.style.display = "none";
+	};
+
+	window.onclick = function(event) {
+	    if (event.target == myUnlimited) {
+	        myUnlimited.style.display = "none";
+	    }
+	};
+
 
 	window.sculpt = ns;
 })(window.sculpt || {});
