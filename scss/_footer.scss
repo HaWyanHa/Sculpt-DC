@@ -28,6 +28,15 @@ footer {
 	a:focus{
 		color: #fff;
 	}
+	.footer-links {
+		li {
+			color: wheat;
+			cursor: pointer;
+		}
+		li:hover {
+			text-decoration: underline;
+		}
+	}
 	.app-store {
 		width: 70%;
 	}

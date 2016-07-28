@@ -2,13 +2,14 @@
 	"use strict";
 	console.log("inside IFE");
 
+	//Mobile Navigation
 	$(".menu-trigger").click(function(){
 		$(".nav-menu").slideToggle(400, function(){
 			$(this).toggleClass("nav-expand").css("display", "");
 		});
 	});
 
-
+	//Carousel Buttons
 	$("#right-btn").click(function(){
 
 		if ($("#main-ul").find(".on-image").attr("id") === ("last")){
@@ -52,7 +53,6 @@
 	});
 
 	//Membership Benefits
-
 	var myBenefits = document.getElementById('myBenefits');
 	var benefitsLink = document.getElementById("benefits");
 	var span1 = document.getElementsByClassName("close")[0];
@@ -65,11 +65,6 @@
 	    myBenefits.style.display = "none";
 	};
 
-	window.onclick = function(event) {
-	    if (event.target == myBenefits) {
-	        myBenefits.style.display = "none";
-	    }
-	};
 
 	//Cancelation Policy
 	var myCancelation = document.getElementById("myCancelation");
@@ -83,12 +78,6 @@
 
 	span2.onclick = function() {
 	    myCancelation.style.display = "none";
-	};
-
-	window.onclick = function(event) {
-	    if (event.target == myCancelation) {
-	        myCancelation.style.display = "none";
-	    }
 	};
 
 	//Unlimited Access Memebership
@@ -105,9 +94,50 @@
 	    myUnlimited.style.display = "none";
 	};
 
+	//Corporate Membership Program
+	var myCorporate = document.getElementById("myCorporate");
+	var corporateLink = document.getElementById("corporate");
+	var span4 = document.getElementsByClassName("close")[3];
+
+	corporateLink.onclick = function() {
+	    myCorporate.style.display = "block";
+	    
+	};
+
+	span4.onclick = function() {
+	    myCorporate.style.display = "none";
+	};
+
+	//Energy Exchange Program
+	var myEnergy = document.getElementById("myEnergy");
+	var energyLink = document.getElementById("energy");
+	var span5 = document.getElementsByClassName("close")[4];
+
+	energyLink.onclick = function() {
+	    myEnergy.style.display = "block";
+	    
+	};
+
+	span5.onclick = function() {
+	    myEnergy.style.display = "none";
+	};
+
+	//close all the modals
 	window.onclick = function(event) {
-	    if (event.target == myUnlimited) {
+	    if (event.target == myEnergy) {
+	        myEnergy.style.display = "none";
+	        console.log("energy")
+	    } else if (event.target == myCorporate) {
+	        myCorporate.style.display = "none";
+	        console.log("my corporate")
+	    } else if (event.target == myUnlimited) {
 	        myUnlimited.style.display = "none";
+	    } else if (event.target == myUnlimited) {
+	        myUnlimited.style.display = "none";
+	    } else if (event.target == myCancelation) {
+	        myCancelation.style.display = "none";
+	    } else if (event.target == myBenefits) {
+	        myBenefits.style.display = "none";
 	    }
 	};
 

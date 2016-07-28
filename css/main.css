@@ -301,6 +301,11 @@ footer {
     color: #fff; }
   footer a:focus {
     color: #fff; }
+  footer .footer-links li {
+    color: wheat;
+    cursor: pointer; }
+  footer .footer-links li:hover {
+    text-decoration: underline; }
   footer .app-store {
     width: 70%; }
 
