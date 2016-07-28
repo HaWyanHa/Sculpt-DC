@@ -193,7 +193,6 @@
   -ms-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out; }
   .yoga-price:hover {
-    border-bottom: 10px solid white;
     background-color: rgba(255, 255, 255, 0.3);
     transition: .3s; }
 
@@ -305,6 +304,7 @@ footer {
     color: wheat;
     cursor: pointer; }
   footer .footer-links li:hover {
+    color: #fff;
     text-decoration: underline; }
   footer .app-store {
     width: 70%; }
