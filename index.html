@@ -69,72 +69,78 @@
 </main>
 
 <main id="about">
+	<nav class="container-fluid subnav">
+		<ul class="row">
+			<li class="col-xs-2 col-xs-offset-3">Classes</li>
+			<li id="faq" class="col-xs-2">FAQ</li>
+			<li class="col-xs-2">Meet The Team</li>
+		</ul>
+	</nav>
 	<section class="container-fluid">
 		<article class="row main-background">
 			<ul class="main-ul">
 				<li>
 					<img class="main-image" src="http://www.sculptdc.com/wp-content/themes/simfo/uploads/yoga.jpg">
 				</li>
-
+				<div class="about-head">
 				<h1 class="col-sm-12 about-head">DC's Only Cycle and Yoga Studio</h1>
 				<p class="col-sm-12 about-info">A revolution in DC’s boutique fitness scene. Now offering unique fusion formats and strength training. Find your balance between high-intensity and mindful movement. Personalized service with a focus on community building.</p>
+				</div>
 			</ul>
 		</article>
-	</section>
-	<article class="container-fluid faq">
-		<h2>Frequently Asked Questions</h2>
-		<ul class="row faq-ul">
-			<li class="col-sm-4">
-				<p>Studio Questions</p>
-				<ul class="row topic-ul">
-					<li class="col-sm-12">
-						<h5 class="faq-question">How hot do the rooms get?</h5>
-						<p class="faq-answer">Something about something blah blah</p>
-					</li>
-					<li class="col-sm-12">
-						<h5 class="faq-question">What happens when I fall?</h5>
-						<p class="faq-answer">Something about something 
-					</li>
-					<li class="col-sm-12">
-						<h5 class="faq-question">Some random question about something?</h5>
-						<p class="faq-answer">Something about something blah blah</p>
-					</li>
-				</ul>
-			</li>
-			<li class="col-sm-4">
-				<p>Membership Questions</p>
-				<ul class="row topic-ul">
-					<li class="col-sm-12">
-						<h5 class="faq-question">How much is a membership?</h5>
-						<p class="faq-answer">Something about something blah blah</p>
-					</li>
-					<li class="col-sm-12">
-						<h5 class="faq-question">Can I cycle and do yoga?</h5>
-						<p class="faq-answer">Something about something blah blah</p>
-					</li>
-					<li class="col-sm-12">
-						<h5 class="faq-question">Somthing about the Billing?</h5>
-						<p class="faq-answer">Something about something blah blah</p>
-					</li>
-				</ul>
-			</li>
-			<li class="col-sm-4">
-				<p>Employment Questions</p>
-				<ul class="row topic-ul">
-					<li class="col-sm-12">
-						<h5 class="faq-question">How do I become an instructor?</h5>
-						<p class="faq-answer">Something about something blah blah</p>
-					</li>
-					<li class="col-sm-12">
-						<h5 class="faq-question">Can I work and workout?</h5>
-						<p class="faq-answer">Something about something blah blah</p>
-					</li>
-				</ul>
-			</li>
-		</ul>
-	</article>
-	<section class="container-fluid team">
-		<article>
+		<article class="container-fluid faq">
+			<h2>Frequently Asked Questions</h2>
+			<ul class="row faq-ul">
+				<li class="col-sm-4">
+					<p>Studio Questions</p>
+					<ul class="row topic-ul">
+						<li class="col-sm-12">
+							<h5 class="faq-question">How hot do the rooms get?</h5>
+							<p class="faq-answer">Something about something blah blah</p>
+						</li>
+						<li class="col-sm-12">
+							<h5 class="faq-question">What happens when I fall?</h5>
+							<p class="faq-answer">Something about something 
+						</li>
+						<li class="col-sm-12">
+							<h5 class="faq-question">Some random question about something?</h5>
+							<p class="faq-answer">Something about something blah blah</p>
+						</li>
+					</ul>
+				</li>
+				<li class="col-sm-4">
+					<p>Membership Questions</p>
+					<ul class="row topic-ul">
+						<li class="col-sm-12">
+							<h5 class="faq-question">How much is a membership?</h5>
+							<p class="faq-answer">Something about something blah blah</p>
+						</li>
+						<li class="col-sm-12">
+							<h5 class="faq-question">Can I cycle and do yoga?</h5>
+							<p class="faq-answer">Something about something blah blah</p>
+						</li>
+						<li class="col-sm-12">
+							<h5 class="faq-question">Somthing about the Billing?</h5>
+							<p class="faq-answer">Something about something blah blah</p>
+						</li>
+					</ul>
+				</li>
+				<li class="col-sm-4">
+					<p>Employment Questions</p>
+					<ul class="row topic-ul">
+						<li class="col-sm-12">
+							<h5 class="faq-question">How do I become an instructor?</h5>
+							<p class="faq-answer">Something about something blah blah</p>
+						</li>
+						<li class="col-sm-12">
+							<h5 class="faq-question">Can I work and workout?</h5>
+							<p class="faq-answer">Something about something blah blah</p>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</article>
+		<article class="team">
 			<h2>Meet the Team</h2>
 			<ul class="row">
 				<li class="col-sm-2">
@@ -200,6 +206,8 @@
 				</li>
 			</ul>
 		</article>
+	</section>
+	<section class="container-fluid">
 	</section>
 </main>
 <main id="newbies" class="newbies">
@@ -292,7 +300,12 @@
 			</form>
 </main>
 <main id="schedule">
-	<healcode-widget data-type="schedules" data-widget-partner="mb" data-widget-id="773356055f" data-widget-version="0.1"></healcode-widget>
+	<h2 class="intro-offers">
+		<a href="#newbies">Check Out Intro Offers For Clients New to Sculpt DC</a>
+	</h2>
+	<div class="container">
+		<healcode-widget data-type="schedules" data-widget-partner="mb" data-widget-id="773356055f" data-widget-version="0.1"></healcode-widget>
+	</div>
 </main>
 <main id="pricing">
 	<ul class="main-ul">

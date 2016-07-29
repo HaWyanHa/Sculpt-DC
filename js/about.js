@@ -18,5 +18,10 @@
 		$(this).next("p").toggle("fast");
 	});
 
+	$("#faq").click(function(){
+		$(".about-head").hide();
+		$(".faq").show();
+	})
+
 	window.sculpt = ns;
 })(window.sculpt || {});
