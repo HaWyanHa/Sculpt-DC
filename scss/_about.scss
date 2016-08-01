@@ -3,12 +3,28 @@
 }
 .subnav {
 	background-color: #f8f8f8;
+	padding: 1% 0;
 	ul {
 		list-style-type: none;
+		color: rgba(21, 21, 21, 0.5); 
+	}
+	li {
+		cursor: pointer;
 	}
 }
 
+.classes {
+	display: none;
+}
+.active-subnav {
+	color: #363636;
+}
 
+.body-by-sculpt {
+	img {
+		width: 100%;
+	}
+}
 
 .faq{
 	display: none;

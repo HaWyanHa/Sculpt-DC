@@ -32,6 +32,7 @@ footer {
 		li {
 			color: wheat;
 			cursor: pointer;
+			text-align: left;
 		}
 		li:hover {
 			color: #fff;
@@ -80,4 +81,7 @@ footer {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+#to-do {
+	display: block;
 }
