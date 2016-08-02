@@ -63,8 +63,29 @@
   .subnav li {
     cursor: pointer; }
 
+.cycle-row {
+  background-color: antiquewhite; }
+  .cycle-row h2 {
+    text-align: center; }
+  .cycle-row p {
+    text-align: center; }
+  .cycle-row button {
+    text-align: center; }
+
+.yoga-row {
+  background-color: wheat; }
+  .yoga-row h2 {
+    text-align: center; }
+  .yoga-row p {
+    text-align: center; }
+  .yoga-row button {
+    text-align: center; }
+
 .classes {
   display: none; }
+  .classes ul {
+    padding: 0;
+    list-style-type: none; }
 
 .active-subnav {
   color: #363636; }

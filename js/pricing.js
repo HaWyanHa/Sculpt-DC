@@ -14,5 +14,10 @@
 
 	};
 
+	$(".pricing-policies").click(function(){
+		$(this).next("p").toggle("fast");
+	});
+
+
 	window.sculpt = ns;
 })(window.sculpt || {});

@@ -94,31 +94,73 @@
 	    myUnlimited.style.display = "none";
 	};
 
+	//waitlist
+	var myWaitlist = document.getElementById("myWaitlist");
+	var waitlistLink = document.getElementById("waitlist");
+	var span4 = document.getElementsByClassName("close")[3];
+
+	waitlistLink.onclick = function() {
+	    myWaitlist.style.display = "block";
+	    
+	};
+
+	span4.onclick = function() {
+	    myWaitlist.style.display = "none";
+	};
+
+	//Late Policy
+	var myLate = document.getElementById("myLate");
+	var lateLink = document.getElementById("late");
+	var span5 = document.getElementsByClassName("close")[4];
+
+	lateLink.onclick = function() {
+	    myLate.style.display = "block";
+	    
+	};
+
+	span5.onclick = function() {
+	    myLate.style.display = "none";
+	};
+
+	//Cancelation Window
+	var myWindow = document.getElementById("myWindow");
+	var windowLink = document.getElementById("window");
+	var span6 = document.getElementsByClassName("close")[5];
+
+	windowLink.onclick = function() {
+	    myWindow.style.display = "block";
+	    
+	};
+
+	span6.onclick = function() {
+	    myWindow.style.display = "none";
+	};
+
 	//Corporate Membership Program
 	var myCorporate = document.getElementById("myCorporate");
 	var corporateLink = document.getElementById("corporate");
-	var span4 = document.getElementsByClassName("close")[3];
+	var span7 = document.getElementsByClassName("close")[6];
 
 	corporateLink.onclick = function() {
 	    myCorporate.style.display = "block";
 	    
 	};
 
-	span4.onclick = function() {
+	span7.onclick = function() {
 	    myCorporate.style.display = "none";
 	};
 
 	//Energy Exchange Program
 	var myEnergy = document.getElementById("myEnergy");
 	var energyLink = document.getElementById("energy");
-	var span5 = document.getElementsByClassName("close")[4];
+	var span8 = document.getElementsByClassName("close")[7];
 
 	energyLink.onclick = function() {
 	    myEnergy.style.display = "block";
 	    
 	};
 
-	span5.onclick = function() {
+	span8.onclick = function() {
 	    myEnergy.style.display = "none";
 	};
 
@@ -138,6 +180,12 @@
 	        myCancelation.style.display = "none";
 	    } else if (event.target == myBenefits) {
 	        myBenefits.style.display = "none";
+	    } else if (event.target == myWaitlist) {
+	        myWaitlist.style.display = "none";
+	    } else if (event.target == myLate) {
+	        myLate.style.display = "none";
+	    } else if (event.target == myWindow) {
+	        myWindow.style.display = "none";
 	    }
 	};
 
