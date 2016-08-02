@@ -61,6 +61,7 @@
     list-style-type: none;
     color: rgba(21, 21, 21, 0.5); }
   .subnav li {
+    text-align: center;
     cursor: pointer; }
 
 .cycle-row {
@@ -103,7 +104,8 @@
   text-align: center; }
 
 .about-info {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 50px; }
 
 .faq-ul {
   list-style-type: none;
@@ -131,6 +133,15 @@
     padding: 0; }
   .team img {
     width: 100%; }
+
+.studio-details p {
+  text-align: justify;
+  padding-right: 15px;
+  padding-left: 15px; }
+.studio-details .studio-details-yoga {
+  padding-right: 0;
+  padding-left: 15px;
+  padding-right: 15px; }
 
 #newbies {
   display: none; }
@@ -449,5 +460,10 @@ footer {
 @media screen and (min-width: 992px) {
   .studio-details {
     padding-top: 8%; } }
+@media screen and (min-width: 768px) {
+  .studio-details p {
+    padding-right: 50px; }
+  .studio-details .studio-details-yoga {
+    padding-left: 50px; } }
 
 /*# sourceMappingURL=main.css.map */
