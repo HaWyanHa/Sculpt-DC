@@ -7,6 +7,7 @@
 	ul {
 		list-style-type: none;
 		color: rgba(21, 21, 21, 0.5); 
+		padding: 0;
 	}
 	li {
 		text-align: center;
@@ -15,11 +16,11 @@
 }
 .cycle-row{
 	background-color: antiquewhite; 
-	h2 {
+	h3 {
 		text-align: center;
 	}
 	p {
-		text-align: center;
+		text-align: justify;
 	}
 	button{
 		text-align: center;
@@ -27,11 +28,11 @@
 }
 .yoga-row {
 	background-color: wheat; 
-	h2 {
+	h3 {
 		text-align: center;
 	}
 	p {
-		text-align: center;
+		text-align: justify;
 	}
 	button{
 		text-align: center;
@@ -111,4 +112,21 @@
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+}
+
+.sculpt-box {
+	height: 400px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	position: relative;
+}
+.bottom-postion {
+	position: absolute;
+	border-bottom: 1px;
+	width: 100%;
+}
+
+//instructors 
+.yoga-team {
+	display: none;
 }

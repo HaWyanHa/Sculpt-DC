@@ -59,26 +59,27 @@
   padding: 1% 0; }
   .subnav ul {
     list-style-type: none;
-    color: rgba(21, 21, 21, 0.5); }
+    color: rgba(21, 21, 21, 0.5);
+    padding: 0; }
   .subnav li {
     text-align: center;
     cursor: pointer; }
 
 .cycle-row {
   background-color: antiquewhite; }
-  .cycle-row h2 {
+  .cycle-row h3 {
     text-align: center; }
   .cycle-row p {
-    text-align: center; }
+    text-align: justify; }
   .cycle-row button {
     text-align: center; }
 
 .yoga-row {
   background-color: wheat; }
-  .yoga-row h2 {
+  .yoga-row h3 {
     text-align: center; }
   .yoga-row p {
-    text-align: center; }
+    text-align: justify; }
   .yoga-row button {
     text-align: center; }
 
@@ -143,11 +144,31 @@
   padding-left: 15px;
   padding-right: 15px; }
 
+.sculpt-box {
+  height: 400px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  position: relative; }
+
+.bottom-postion {
+  position: absolute;
+  border-bottom: 1px;
+  width: 100%; }
+
+.yoga-team {
+  display: none; }
+
 #newbies {
   display: none; }
 
 .newbies h2 {
   text-align: center; }
+
+.newbies-box {
+  box-sizing: border-box;
+  height: 300px;
+  border: 1px solid black;
+  position: relative; }
 
 .class-options {
   list-style-type: none;
@@ -247,6 +268,7 @@
   box-sizing: border-box;
   height: 300px;
   background-color: #fff;
+  position: relative;
   -webkit-transition: color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out;
   -o-transition: color 0.2s ease-out;

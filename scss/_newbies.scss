@@ -7,7 +7,12 @@
 		text-align: center;
 	}
 }
-
+.newbies-box {
+	box-sizing: border-box;
+	height: 300px;
+	border: 1px solid black;
+	position: relative;
+}
 .class-options {
 	list-style-type: none;
 	padding: 0;
