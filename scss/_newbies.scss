@@ -12,12 +12,19 @@
 	height: 300px;
 	border: 1px solid black;
 	position: relative;
+	padding: 0;
 }
 .class-options {
 	list-style-type: none;
-	padding: 0;
+	ul {
+		padding: 0 1em 0 2em;
+
+	}
 	h4 {
 		text-align: center;
+		background-color: #AB1C00;
+		margin: 0;
+		padding: 1em 0 1em 0;
 	}
 	a:hover{
 		text-decoration: none;

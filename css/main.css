@@ -176,13 +176,18 @@
   box-sizing: border-box;
   height: 300px;
   border: 1px solid black;
-  position: relative; }
+  position: relative;
+  padding: 0; }
 
 .class-options {
-  list-style-type: none;
-  padding: 0; }
+  list-style-type: none; }
+  .class-options ul {
+    padding: 0 1em 0 2em; }
   .class-options h4 {
-    text-align: center; }
+    text-align: center;
+    background-color: #AB1C00;
+    margin: 0;
+    padding: 1em 0 1em 0; }
   .class-options a:hover {
     text-decoration: none; }
 
@@ -321,6 +326,9 @@
   width: 100%; }
 .footer-styles textarea {
   width: 100%; }
+
+.bold {
+  font-weight: bold; }
 
 button {
   background-color: #fff;
