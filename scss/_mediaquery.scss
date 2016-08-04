@@ -56,6 +56,12 @@
 	}
 	.sculpt-box {
 		height: 300px;
+		span {
+			display: block;
+		}
+	}
+	.yoga-box {
+		height: 800px;
 	}
 }
 
@@ -65,5 +71,8 @@
 	}
 	.sculpt-box {
 		height: 450px;
+	}
+	.yoga-box {
+		height: 650px;
 	}
 }

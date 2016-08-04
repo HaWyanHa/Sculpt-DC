@@ -65,29 +65,22 @@
     text-align: center;
     cursor: pointer; }
 
-.cycle-row {
-  background-color: antiquewhite; }
-  .cycle-row h3 {
-    text-align: center; }
-  .cycle-row p {
-    text-align: justify; }
-  .cycle-row button {
-    text-align: center; }
-
-.yoga-row {
-  background-color: wheat; }
-  .yoga-row h3 {
-    text-align: center; }
-  .yoga-row p {
-    text-align: justify; }
-  .yoga-row button {
-    text-align: center; }
+.yoga-row h3 {
+  text-align: center; }
+.yoga-row p {
+  text-align: justify;
+  padding-top: 2em;
+  padding-bottom: 2em; }
+.yoga-row button {
+  text-align: center; }
 
 .classes {
   display: none; }
   .classes ul {
     padding: 0;
     list-style-type: none; }
+  .classes h2 {
+    text-align: center; }
 
 .active-subnav {
   color: #363636; }
@@ -145,8 +138,9 @@
   padding-right: 15px; }
 
 .sculpt-box {
+  background-color: wheat;
   position: relative;
-  height: 400px;
+  height: 430px;
   border: 1px solid black;
   box-sizing: border-box;
   position: relative;
@@ -168,6 +162,9 @@
 
 #yoga-class {
   display: none; }
+
+.ryan {
+  color: #AB1C00; }
 
 #newbies {
   display: none; }
@@ -497,12 +494,20 @@ footer {
     padding-left: 50px; }
 
   .sculpt-box {
-    height: 300px; } }
+    height: 300px; }
+    .sculpt-box span {
+      display: block; }
+
+  .yoga-box {
+    height: 800px; } }
 @media screen and (min-width: 992px) {
   .studio-details {
     padding-top: 8%; }
 
   .sculpt-box {
-    height: 450px; } }
+    height: 450px; }
+
+  .yoga-box {
+    height: 650px; } }
 
 /*# sourceMappingURL=main.css.map */

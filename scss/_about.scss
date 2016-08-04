@@ -14,25 +14,14 @@
 		cursor: pointer;
 	}
 }
-.cycle-row{
-	background-color: antiquewhite; 
+.yoga-row { 
 	h3 {
 		text-align: center;
 	}
 	p {
 		text-align: justify;
-	}
-	button{
-		text-align: center;
-	}
-}
-.yoga-row {
-	background-color: wheat; 
-	h3 {
-		text-align: center;
-	}
-	p {
-		text-align: justify;
+		padding-top: 2em;
+		padding-bottom: 2em;
 	}
 	button{
 		text-align: center;
@@ -43,6 +32,9 @@
 	ul {
 		padding: 0;
 		list-style-type: none;
+	}
+	h2 {
+		text-align: center;
 	}
 }
 .active-subnav {
@@ -115,8 +107,9 @@
 }
 
 .sculpt-box {
+	background-color: wheat;
 	position: relative;
-	height: 400px;
+	height: 430px;
 	border: 1px solid black;
 	box-sizing: border-box;
 	position: relative;
@@ -143,4 +136,7 @@
 
 #yoga-class {
 	display: none;
+}
+.ryan {
+	color: #AB1C00;
 }
