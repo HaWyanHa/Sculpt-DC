@@ -145,14 +145,22 @@
   padding-right: 15px; }
 
 .sculpt-box {
+  position: relative;
   height: 400px;
   border: 1px solid black;
   box-sizing: border-box;
-  position: relative; }
+  position: relative;
+  padding: 0; }
+  .sculpt-box h3 {
+    margin: 0;
+    padding: 14px 0 14px 0;
+    background-color: #AB1C00; }
+  .sculpt-box p {
+    padding: 2em 2em 0 2em; }
 
-.bottom-postion {
+.bottom-position {
   position: absolute;
-  border-bottom: 1px;
+  bottom: 1em;
   width: 100%; }
 
 .yoga-team {
@@ -482,13 +490,19 @@ footer {
     top: 9px; }
   .nav-menu a {
     font-size: 1em; } }
-@media screen and (min-width: 992px) {
-  .studio-details {
-    padding-top: 8%; } }
 @media screen and (min-width: 768px) {
   .studio-details p {
     padding-right: 50px; }
   .studio-details .studio-details-yoga {
-    padding-left: 50px; } }
+    padding-left: 50px; }
+
+  .sculpt-box {
+    height: 300px; } }
+@media screen and (min-width: 992px) {
+  .studio-details {
+    padding-top: 8%; }
+
+  .sculpt-box {
+    height: 450px; } }
 
 /*# sourceMappingURL=main.css.map */

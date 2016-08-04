@@ -115,14 +115,24 @@
 }
 
 .sculpt-box {
+	position: relative;
 	height: 400px;
 	border: 1px solid black;
 	box-sizing: border-box;
 	position: relative;
+	padding: 0;
+	h3 {
+		margin: 0;
+		padding: 14px 0 14px 0;
+		background-color: #AB1C00;
+	}
+	p {
+		padding: 2em 2em 0 2em;
+	}
 }
-.bottom-postion {
+.bottom-position {
 	position: absolute;
-	border-bottom: 1px;
+	bottom: 1em;
 	width: 100%;
 }
 

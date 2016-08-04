@@ -45,17 +45,25 @@
 		}
 	}
 }
+@media screen and (min-width: 768px) {
+	.studio-details {
+		p {
+			padding-right: 50px;
+		}
+		.studio-details-yoga {
+			padding-left: 50px;
+		}
+	}
+	.sculpt-box {
+		height: 300px;
+	}
+}
+
 @media screen and (min-width: 992px) {
 	.studio-details{ 
 		padding-top: 8%;
 	}
+	.sculpt-box {
+		height: 450px;
+	}
 }
-@media screen and (min-width: 768px) {
-	.studio-details {
-	p {
-		padding-right: 50px;
-	}
-	.studio-details-yoga {
-		padding-left: 50px;
-	}
-}}
