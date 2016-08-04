@@ -29,7 +29,7 @@
 		$("#body").removeClass("active-subnav");
 		$("#classes").removeClass("active-subnav");
 		$("#team").removeClass("active-subnav");
-	})
+	});
 
 	$("#body").click(function(){
 		$(".faq").hide();
@@ -40,7 +40,7 @@
 		$("#body").addClass("active-subnav");
 		$("#classes").removeClass("active-subnav");
 		$("#team").removeClass("active-subnav");
-	})
+	});
 
 	$("#team").click(function(){
 		$(".faq").hide();
@@ -51,7 +51,7 @@
 		$("#body").removeClass("active-subnav");
 		$("#classes").removeClass("active-subnav");
 		$("#team").addClass("active-subnav");
-	})
+	});
 
 	$("#classes").click(function(){
 		$(".faq").hide();
@@ -62,35 +62,35 @@
 		$("#body").removeClass("active-subnav");
 		$("#classes").addClass("active-subnav");
 		$("#team").removeClass("active-subnav");
-	})
+	});
 
 	$("#cycle-link").click(function(){
 		$(".cycle-team").show();
 		$("#cycle-link").addClass("active-subnav");
 		$(".yoga-team").hide();
 		$("#yoga-link").removeClass("active-subnav");
-	})
+	});
 
 	$("#yoga-link").click(function(){
 		$(".yoga-team").show();
 		$("#yoga-link").addClass("active-subnav");
 		$(".cycle-team").hide();
 		$("#cycle-link").removeClass("active-subnav");
-	})
+	});
 
 	$("#cycle-class-link").click(function(){
 		$("#cycle-class").show();
 		$("#cycle-class-link").addClass("active-subnav");
 		$("#yoga-class").hide();
 		$("#yoga-class-link").removeClass("active-subnav");
-	})
+	});
 
 	$("#yoga-class-link").click(function(){
 		$("#yoga-class").show();
 		$("#yoga-class-link").addClass("active-subnav");
 		$("#cycle-class").hide();
 		$("#cycle-class-link").removeClass("active-subnav");
-	})
+	});
 
 	window.sculpt = ns;
 })(window.sculpt || {});
