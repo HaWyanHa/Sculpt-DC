@@ -78,5 +78,19 @@
 		$("#cycle-link").removeClass("active-subnav");
 	})
 
+	$("#cycle-class-link").click(function(){
+		$("#cycle-class").show();
+		$("#cycle-class-link").addClass("active-subnav");
+		$("#yoga-class").hide();
+		$("#yoga-class-link").removeClass("active-subnav");
+	})
+
+	$("#yoga-class-link").click(function(){
+		$("#yoga-class").show();
+		$("#yoga-class-link").addClass("active-subnav");
+		$("#cycle-class").hide();
+		$("#cycle-class-link").removeClass("active-subnav");
+	})
+
 	window.sculpt = ns;
 })(window.sculpt || {});
