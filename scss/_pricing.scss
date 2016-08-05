@@ -76,9 +76,27 @@
 	}
 }
 .pricing-policies {
+	text-align: center;
+	color: #AB1C00;
+	cursor: pointer;
+	&:hover{
+		text-decoration: underline;
+	}
+}
+.policy {
+	h2 {
+		text-align: center;
+	}
+	ul {
+		padding: 0;
+	}
+	li {
+		list-style-type: none;
+	}
 }
 .pricing-details {
 	display: none;
+	list-style-type: square;
 }
 // .yoga-price:first-child {
 // 	background-color: wheat;

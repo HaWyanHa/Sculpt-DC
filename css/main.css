@@ -297,8 +297,23 @@
     background-color: rgba(255, 255, 255, 0.3);
     transition: .3s; }
 
+.pricing-policies {
+  text-align: center;
+  color: #AB1C00;
+  cursor: pointer; }
+  .pricing-policies:hover {
+    text-decoration: underline; }
+
+.policy h2 {
+  text-align: center; }
+.policy ul {
+  padding: 0; }
+.policy li {
+  list-style-type: none; }
+
 .pricing-details {
-  display: none; }
+  display: none;
+  list-style-type: square; }
 
 .price {
   font-size: 2em;

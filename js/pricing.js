@@ -15,7 +15,7 @@
 	};
 
 	$(".pricing-policies").click(function(){
-		$(this).next("p").toggle("fast");
+		$(this).next("div").toggle("fast");
 	});
 
 	$("#cycle-price-link").click(function(){
