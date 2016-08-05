@@ -66,6 +66,19 @@ footer {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    p {
+    	text-align: justify;
+    }
+    a {
+    	color: #AB1C00;
+    	&:hover {
+    		color: #AB1C00;
+    	}
+    }
+    li {
+    	display: block;
+    	text-align: left;
+    }
 }
 
 /* The Close Button */

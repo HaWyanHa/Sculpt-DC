@@ -174,7 +174,7 @@
 
 .newbies-box {
   box-sizing: border-box;
-  height: 300px;
+  height: 320px;
   border: 1px solid black;
   position: relative;
   padding: 0; }
@@ -182,7 +182,7 @@
 .class-options {
   list-style-type: none; }
   .class-options ul {
-    padding: 0 1em 0 2em; }
+    padding: 1em 1em 0 2em; }
   .class-options h4 {
     text-align: center;
     background-color: #AB1C00;
@@ -451,6 +451,15 @@ footer {
   padding: 20px;
   border: 1px solid #888;
   width: 80%; }
+  .modal-content p {
+    text-align: justify; }
+  .modal-content a {
+    color: #AB1C00; }
+    .modal-content a:hover {
+      color: #AB1C00; }
+  .modal-content li {
+    display: block;
+    text-align: left; }
 
 /* The Close Button */
 .close {
