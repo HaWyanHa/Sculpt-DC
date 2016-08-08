@@ -92,5 +92,11 @@
 		$("#cycle-class-link").removeClass("active-subnav");
 	});
 
+
+
+	$(".test").click(function(){
+		console.log("hello");
+		$(this).next("div").toggle("fast");
+	});
 	window.sculpt = ns;
 })(window.sculpt || {});

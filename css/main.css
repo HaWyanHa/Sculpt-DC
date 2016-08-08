@@ -70,7 +70,8 @@
 .yoga-row p {
   text-align: justify;
   padding-top: 2em;
-  padding-bottom: 2em; }
+  padding-bottom: 2em;
+  font-size: 1.1em; }
 .yoga-row button {
   text-align: center; }
 
@@ -99,7 +100,8 @@
 
 .about-info {
   text-align: center;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  font-size: 1.1em; }
 
 .faq-ul {
   list-style-type: none;
@@ -111,13 +113,15 @@
   list-style-type: none; }
 
 .faq-question {
+  font-size: 1.1em;
   color: #AB1C00;
   cursor: pointer; }
   .faq-question:hover {
     text-decoration: underline; }
 
 .faq-answer {
-  display: none; }
+  display: none;
+  font-size: 1.1em; }
 
 .team {
   display: none;
@@ -131,7 +135,8 @@
 .studio-details p {
   text-align: justify;
   padding-right: 15px;
-  padding-left: 15px; }
+  padding-left: 15px;
+  font-size: 1.1em; }
 .studio-details .studio-details-yoga {
   padding-right: 0;
   padding-left: 15px;
@@ -319,6 +324,13 @@
   font-size: 2em;
   color: #AB1C00;
   padding-top: 5%; }
+
+#hide {
+  display: none; }
+
+.test {
+  background-color: #AB1C00;
+  padding: 1em; }
 
 #contact {
   display: none; }
@@ -540,7 +552,7 @@ footer {
     height: 910px; } }
 @media screen and (min-width: 992px) {
   .studio-details {
-    padding-top: 8%; }
+    padding-top: 5%; }
 
   .sculpt-box {
     height: 460px; }
