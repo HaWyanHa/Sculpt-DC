@@ -82,6 +82,9 @@
     list-style-type: none; }
   .classes h2 {
     text-align: center; }
+  .classes h3 {
+    text-align: center;
+    padding-top: 2em; }
 
 .active-subnav {
   color: #363636; }
@@ -90,8 +93,7 @@
   width: 100%; }
 
 .faq {
-  display: none;
-  background-color: wheat; }
+  display: none; }
   .faq h2 {
     text-align: center; }
 
