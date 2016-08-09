@@ -41,12 +41,6 @@ li .stop-highlight:hover {
 		p {
 			display: inline
 		}
-		// p:hover {
-		// 	color: #363636;
-		// // }
-		// img:hover + p {   //just wanted to practice with + in SASS
-		// 	color: #363636;
-		// }
 	}
 	.stop-highlight {
 		a {
@@ -65,14 +59,11 @@ li .stop-highlight:hover {
  		transition: color 0.2s ease-out;
 	}
 	a:hover {
-		color: #AB1C00;
+		color: $primaryRed;
 	}
-	// a:active {
-	// 	color: #AB1C00;
-	// }
 }
 .active {
-	color: #AB1C00;
+	color: $primaryRed;
 }
 a {
 	color: #363636;

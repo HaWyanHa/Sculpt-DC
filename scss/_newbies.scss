@@ -22,7 +22,7 @@
 	}
 	h4 {
 		text-align: center;
-		background-color: #AB1C00;
+		background-color: $primaryRed;
 		margin: 0;
 		padding: 1em 0 1em 0;
 	}
@@ -33,12 +33,12 @@
 
 .purchase {
 	text-align: center;
-	background: #AB1C00;
-	background-image: -webkit-linear-gradient(top, #AB1C00, #3d0101);
-	background-image: -moz-linear-gradient(top, #AB1C00, #3d0101);
-	background-image: -ms-linear-gradient(top, #AB1C00, #3d0101);
-	background-image: -o-linear-gradient(top, #AB1C00, #3d0101);
-	background-image: linear-gradient(to bottom, #AB1C00, #3d0101);
+	background: $primaryRed;
+	background-image: -webkit-linear-gradient(top, $primaryRed, #3d0101);
+	background-image: -moz-linear-gradient(top, $primaryRed, #3d0101);
+	background-image: -ms-linear-gradient(top, $primaryRed, #3d0101);
+	background-image: -o-linear-gradient(top, $primaryRed, #3d0101);
+	background-image: linear-gradient(to bottom, $primaryRed, #3d0101);
 	-webkit-border-radius: 28;
 	-moz-border-radius: 28;
 	border-radius: 28px;

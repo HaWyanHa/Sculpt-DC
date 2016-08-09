@@ -2,7 +2,7 @@
 	display: none
 }
 .subnav {
-	background-color: #f8f8f8;
+	background-color: $offWhiteBackground;
 	padding: 1% 0;
 	ul {
 		list-style-type: none;
@@ -125,7 +125,7 @@
 	h3 {
 		margin: 0;
 		padding: 14px 0 14px 0;
-		background-color: #AB1C00;
+		background-color: $primaryRed;
 	}
 	p {
 		padding: 2em 2em 0 2em;

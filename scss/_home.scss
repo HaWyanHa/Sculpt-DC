@@ -19,7 +19,7 @@
 	background-color: #fff;
 	opacity: .4;
 	transition: .2s;
-	color: #00aaaa;
+	color: $arrowColor;
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
@@ -31,7 +31,7 @@
 }
 .left-arrow {
 	background-color: #fff;
-	color: #00aaaa;
+	color: $arrowColor;
 	opacity: .4;
 	transition: .2s;
 	border-radius: 50%;

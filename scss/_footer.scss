@@ -1,6 +1,6 @@
 footer {
 	text-align: center; 
-	background-color:  #AB1C00;
+	background-color:  $primaryRed;
 
 	.footer-header{
 	}
@@ -70,9 +70,9 @@ footer {
     	text-align: justify;
     }
     a {
-    	color: #AB1C00;
+    	color: $primaryRed;
     	&:hover {
-    		color: #AB1C00;
+    		color: $primaryRed;
     	}
     }
     li {

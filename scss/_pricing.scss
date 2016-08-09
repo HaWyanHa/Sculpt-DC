@@ -35,30 +35,30 @@
 	}
 }
 .yoga-price:first-child {
-	border-top: 6px solid #AB1C00;
-	border-left: 6px solid #AB1C00;
-	border-bottom: 6px solid #AB1C00;
+	border-top: 6px solid $primaryRed;
+	border-left: 6px solid $primaryRed;
+	border-bottom: 6px solid $primaryRed;
 	box-sizing: border-box;
 }
 
 .yoga-price:last-child {
-	border-top: 6px solid #AB1C00;
-	border-bottom: 6px solid #AB1C00;
-	border-right: 6px solid #AB1C00;
+	border-top: 6px solid $primaryRed;
+	border-bottom: 6px solid $primaryRed;
+	border-right: 6px solid $primaryRed;
 	box-sizing: border-box;
 }
 
 .yoga-price:nth-child(2) {
-	border-top: 6px solid #AB1C00;
-	border-bottom: 6px solid #AB1C00;
+	border-top: 6px solid $primaryRed;
+	border-bottom: 6px solid $primaryRed;
 }
 .yoga-price:nth-child(3){
-	border-top: 6px solid #AB1C00;
-	border-bottom: 6px solid #AB1C00;
+	border-top: 6px solid $primaryRed;
+	border-bottom: 6px solid $primaryRed;
 }
 
 .yoga-price {
-	border: 3px solid #AB1C00;
+	border: 3px solid $primaryRed;
 	box-sizing: border-box;
 	height: 300px;
 	background-color: #fff;
@@ -77,7 +77,7 @@
 }
 .pricing-policies {
 	text-align: center;
-	color: #AB1C00;
+	color: $primaryRed;
 	cursor: pointer;
 	&:hover{
 		text-decoration: underline;
