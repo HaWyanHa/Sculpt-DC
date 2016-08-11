@@ -168,10 +168,10 @@
 	window.onclick = function(event) {
 	    if (event.target == myEnergy) {
 	        myEnergy.style.display = "none";
-	        console.log("energy")
+	        console.log("energy");
 	    } else if (event.target == myCorporate) {
 	        myCorporate.style.display = "none";
-	        console.log("my corporate")
+	        console.log("my corporate");
 	    } else if (event.target == myUnlimited) {
 	        myUnlimited.style.display = "none";
 	    } else if (event.target == myUnlimited) {
